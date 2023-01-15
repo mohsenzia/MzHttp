@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/mohsenzia/MzHttp#readme",
   "dependencies": {
-    "express": "4.18.2"
+    "express": "4.18.2",
+    "log4js": "6.7.1"
   }
 }
