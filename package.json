@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mohsenzia/MzHttp/issues"
   },
-  "homepage": "https://github.com/mohsenzia/MzHttp#readme"
+  "homepage": "https://github.com/mohsenzia/MzHttp#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
 }
