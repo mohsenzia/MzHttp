@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  node:
+    image: node:slim
+    ports:
+      - 8080:8080
+    
