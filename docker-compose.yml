@@ -2,7 +2,9 @@ version: '2'
 
 services:
   node:
-    image: node:slim
+    container_name: MzHttp
+    build:
+      dockerfile: Dockerfile
     ports:
       - 8080:8080
     
