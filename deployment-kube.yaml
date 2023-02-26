@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: app
-        image: mohsenzia/mzhttp:latest
+        image: mohsenzia/mzhttp:1.2
         ports:
         - containerPort: 80
