@@ -30,6 +30,10 @@ app.get('/author', (req, res)=>{
 	res.status(200).send('Mohsen Ziaabadi');
 });
 
+app.get('/health', (req, res)=>{
+	res.status(200).send('It\'s Worked');
+});
+
 app.listen(8080, ()=>{
 	console.log('Server started on port 8080');
 });
